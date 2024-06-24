@@ -1,6 +1,6 @@
-import SwiperCore, { EffectFade, Navigation } from 'swiper';
+// import SwiperCore, { EffectFade, Navigation } from 'swiper';
 
-SwiperCore.use([EffectFade, Navigation]);
+// SwiperCore.use([EffectFade, Navigation]);
 
 type PageIntroProps = {
   pageIntroBackgroundImage: string;

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import useOnClickOutside from 'use-onclickoutside';
-import Logo from '../../assets/icons/logo';
+// import Logo from '../../assets/icons/logo';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 

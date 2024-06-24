@@ -1,7 +1,6 @@
 import Layout from '../layouts/Main';
 import PageIntro from '../components/page-intro';
 import Footer from '../components/footer';
-import ResponsiveCarousel from '../components/ResponsiveCarousel/ResponsiveCarousel';
 import Timeline from 'components/Timeline';
 
 const AboutPage = () => {
@@ -85,7 +84,7 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>Other Green Purdue Organizations</h4>
-                
+
             </section>
 
 
