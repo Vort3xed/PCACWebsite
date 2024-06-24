@@ -84,7 +84,26 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>Other Green Purdue Organizations</h4>
-
+                <div className='org-block'>
+                    <div className='org-block-image'>
+                        <img src='https://via.placeholder.com/300' alt='placeholder' />
+                    </div>
+                    <div className='org-block-text'>
+                        <h3>Purdue Sustainability Council</h3>
+                        <p>A student organization at Purdue University whose mission is to promote sustainability on Purdue's campus and in the surrounding community. </p>
+                        <button>Visit Site</button>
+                    </div>
+                </div>
+                <div className='org-block'>
+                    <div className='org-block-image'>
+                        <img src='https://via.placeholder.com/300' alt='placeholder' />
+                    </div>
+                    <div className='org-block-text'>
+                        <h3>Purdue Sustainability Council</h3>
+                        <p>A student organization at Purdue University whose mission is to promote sustainability on Purdue's campus and in the surrounding community. </p>
+                        <button>Visit Site</button>
+                    </div>
+                </div>
             </section>
 
 
