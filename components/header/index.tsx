@@ -59,7 +59,7 @@ const Header = ({ isErrorPage }: HeaderType) => {
               onTop ? 
               <img src="/images/PCAClogo.png" alt="PCAC" className="site-logo" />
               : 
-              <img src="/images/PCAClogoinverted.png" alt="PCAC" className="site-logo" />
+              <img src="/images/PCAClogo_black_white.png" alt="PCAC" className="site-logo" />
             }
             
             </h1></a>
