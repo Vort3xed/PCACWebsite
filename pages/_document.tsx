@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import Document, { Head, Main, NextScript, DocumentInitialProps, DocumentContext } from 'next/document'
+import Document, { Head, Html, Main, NextScript, DocumentInitialProps, DocumentContext } from 'next/document'
 import { GA_TRACKING_ID } from '../utils/gtag';
 
 interface DocumentProps extends DocumentInitialProps {
@@ -23,7 +23,8 @@ export default class CustomDocument extends Document<DocumentProps> {
     const { isProduction } = this.props
 
     return (
-      <html lang="en">
+      // <html lang="en">
+      <Html>
         <Head>
 
           {/* We only want to add the scripts if in production */}
@@ -54,7 +55,8 @@ export default class CustomDocument extends Document<DocumentProps> {
           <Main />
           <NextScript />
         </body>
-      </html>
+      {/* </html> */}
+      </Html>
     )
   }
 }
