@@ -1,43 +1,33 @@
 import Layout from '../layouts/Main';
 import PageIntro from '../components/page-intro';
 import Footer from '../components/footer';
-import Timeline from '../components/Timeline';
+// import Timeline from '../components/Timeline';
 
 
 const AboutPage = () => {
-    const timelineData = [
-        {
-            title: 'Event 1',
-            content: 'Description for event 1.',
-            image: 'https://via.placeholder.com/300'
-        },
-        {
-            title: 'Event 2',
-            content: 'Description for event 2.'
-        },
-        {
-            title: 'Event 3',
-            content: 'Description for event 3.',
-            image: 'https://via.placeholder.com/300'
-        },
-        {
-            title: 'Event 4',
-            content: 'Description for event 4.',
-            image: 'https://via.placeholder.com/300'
-        },
-        {
-            title: 'Event 5',
-            content: 'Description for event 3.',
-            image: 'https://via.placeholder.com/300'
-        }
-    ];
-
     return (
         <Layout>
-            <PageIntro pageIntroBackgroundImage="url('/images/aboutbg.png')" titleText='About'
-                subtitleText='Learn about the Purdue Climate Action Collective and their mission to direct Purdue University to Carbon Neutrality' />
+            <PageIntro pageIntroBackgroundImage="url('/images/campusinfobg.png')" titleText='Get Involved'
+                subtitleText='Discover meaningful ways to engage with the Purdue community and contribute to our sustainability initiatives.' />
 
-            <section>
+                <section>
+                    <div className='getinvolved-items'>
+                        <div className='getinvolved-item'> 
+                            <h4>Sign the petition</h4>
+                            <p>aiosjfpoase fioasjefoi ajsoie fjpa</p>
+                            
+                        </div>
+                        <div className='getinvolved-item'> 
+                            <h4>Sign the petition</h4>
+                            <p>aiosjfpoase fioasjefoi ajsoie fjpa</p>
+                            <button>
+                                
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+            {/* <section>
 
                 <div className="about-content">
                     <h4>What is the PCAC?</h4>
@@ -48,15 +38,11 @@ const AboutPage = () => {
                     <p></p>
                     <p></p>
                 </div>
-            </section>
+            </section> */}
 
-            <div className="contact-head">
+            {/* <div className="contact-head">
                 <h4>Timeline</h4>
-            </div>
-
-            <div className="app">
-                <Timeline items={timelineData} />
-            </div>
+            </div> */}
 
             <Footer />
         </Layout>

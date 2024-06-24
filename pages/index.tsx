@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 const IndexPage = () => {
   return (
     <Layout>
-      <PageIntro pageIntroBackgroundImage="url('/images/slide-1.jpg')" titleText='Welcome to the Purdue Climate Action Collective' 
+      <PageIntro pageIntroBackgroundImage="url('/images/homebg.png')" titleText='Welcome to the Purdue Climate Action Collective' 
       subtitleText='This is a hub for climate action information at Purdue, as well as resources to be involved with sustainability efforts on campus.'
       rightVar={true} button={true}/>
 

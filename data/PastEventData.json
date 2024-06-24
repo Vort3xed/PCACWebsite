@@ -1,0 +1,34 @@
+{
+    "data": [
+      {
+        "_id": "1",
+        "title": "CyberPatriot",
+        "description": "AFA's national defense competition!",
+        "dateTime": "2023-10-5",
+        "tags": [
+          "defense",
+          "money",
+          "beginner friendly"
+        ],
+        "link": "https://forms.gle/5aEbucTAToJMX7kG7",
+        "registrationLink": "",
+        "eventType": "EVENT",
+        "imageUrl": "/assets/eventCovers/CyberPatriot.png"
+      },
+      {
+        "_id": "2",
+        "title": "RUSecure CTF",
+        "description": "Join us in this CTF!",
+        "dateTime": "2024-02-29",
+        "tags": [
+          "CTF",
+          "money",
+          "beginner friendly"
+        ],
+        "link": "https://rusecurectf.radford.edu",
+        "registrationLink": "",
+        "eventType": "EVENT",
+        "imageUrl": "/assets/code_open.avif"
+      }
+    ]
+  }
