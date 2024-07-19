@@ -60,21 +60,15 @@ const Footer = () => {
           <div className="footer-items">
             <div className="footer-item">
               <i className="icon-cash"></i>
-              <h4>Contact Us</h4>
+              <h4>Join Us</h4>
               <p>Have a question, suggestion, or just want to reach out? We're here to listen!</p>
-              <a href="#" className="btn-contact"><i className="icon-right"></i></a>
+              <a href="https://forms.gle/XsX6UeqJs9ZPGXPR7" target="_blank" rel="noopener noreferrer" className="btn-contact"><i className="icon-right"></i></a>
             </div>
             <div className="footer-item">
               <i className="icon-cash"></i>
-              <h4>Newsletter Sign-Up</h4>
+              <h4>Contact Us</h4>
               <p>Stay updated on upcoming sustainability events & efforts around campus by signing up for the e-newsletter.</p>
-              <a href="#" className="btn-contact"><i className="icon-right"></i></a>
-            </div>
-            <div className="footer-item">
-              <i className="icon-cash"></i>
-              <h4>Join the Discord</h4>
-              <p>Join our vibrant Discord community to connect with fellow sustainability enthusiasts</p>
-              <a href="#" className="btn-contact"><i className="icon-right"></i></a>
+              <a href="mailto:purdueclimateactioncollective@gmail.com" className="btn-contact"><i className="icon-right"></i></a>
             </div>
             <div className="footer-item">
               <i className="icon-cash"></i>
@@ -88,19 +82,16 @@ const Footer = () => {
       <div className="container">
         <div className="site-footer__top">
           <div className="site-footer__description">
-            <h6><Logo /> PCAC</h6>
+            {/* <h6><Logo /> PCAC</h6> */}
+            <img src="/images/PCAC_logo_dark.png" alt="PCAC" className="site-logo" />
             <p>Purdue &gt; IU</p>
             <ul className="site-footer__social-networks">
-              <li><a href="#"><i className="icon-facebook"></i></a></li>
-              <li><a href="#"><i className="icon-twitter"></i></a></li>
-              <li><a href="#"><i className="icon-linkedin"></i></a></li>
               <li><a href="#"><i className="icon-instagram"></i></a></li>
-              <li><a href="#"><i className="icon-youtube-play"></i></a></li>
             </ul>
           </div>
 
           <div className="site-footer__links">
-            <ul>
+            {/* <ul>
               <li>Information</li>
               <li><a href="#">Contact Us</a></li>
               <li><a href="#">Contact Us</a></li>
@@ -112,11 +103,10 @@ const Footer = () => {
               <li><a href="#">Contact Us</a></li>
               <li><a href="#">Contact Us</a></li>
               <li><a href="#">Contact Us</a></li>
-            </ul>
+            </ul> */}
             <ul>
               <li>Contact</li>
-              <li><a href="#">pcac@gmail.com</a></li>
-              <li><a href="#">Phone Number: +123456789</a></li>
+              <li><a href="mailto:purdueclimateactioncollective@gmail.com">purdueclimateactioncollective@gmail.com</a></li>
             </ul>
           </div>
         </div>

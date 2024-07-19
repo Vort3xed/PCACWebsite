@@ -379,6 +379,15 @@ h5 {
       height: 35px;
     }
   }
+  img {
+    width: 35vw;
+    object-fit: contain;
+    margin-right: 15px;
+
+    @include breakpoint(phone) {
+      width: 250px;
+    }
+  }
 }
 
 .breadcrumb {

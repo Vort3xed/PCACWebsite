@@ -22,7 +22,7 @@ const PageIntro = (props: PageIntroProps) => {
           <div className="page-intro__slide__content">
             <h2>{props.titleText}</h2>
             <p>{props.subtitleText}</p>
-            {props.button && <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>}
+            {/* {props.button && <a href="#" className="btn-shop"><i className="icon-right"></i>Shop now</a>} */}
           </div>
         </div>
       </div>

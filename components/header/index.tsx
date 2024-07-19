@@ -98,12 +98,12 @@ const Header = ({ isErrorPage }: HeaderType) => {
           </Link>
           <Link href="/login">
             <button className="site-header__btn-avatar"><i className="icon-avatar"></i></button>
-          </Link>
+          </Link>*/}
           <button 
             onClick={() => setMenuOpen(true)} 
             className="site-header__btn-menu">
             <i className="btn-hamburger"><span></span></i>
-          </button> */}
+          </button> 
         </div>
       </div>
     </header>
