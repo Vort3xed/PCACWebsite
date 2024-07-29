@@ -235,6 +235,8 @@ h5 {
     p {
       font-size: 1rem;
       margin: 0;
+      line-height: 115%;
+      padding-bottom: 8%;
     }
   }
 }
@@ -1525,6 +1527,7 @@ h5 {
     box-shadow: 0 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     padding: 2.5%;
+    width: 30%;
     h4 {
       font-size: 20px;
       padding-bottom: 20px;
@@ -1558,6 +1561,21 @@ h5 {
     margin-right: 5%;
     font-size: 15px;
     line-height: 150%;
+  }
+
+  ul {
+    padding-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+    line-height: 150%;
+    li {
+      padding-bottom: 1%;
+      list-style-type: circle;
+      a {
+        text-decoration: underline;
+      }
+    }
   }
 
   h4 {
@@ -1599,6 +1617,16 @@ h5 {
   @include breakpoint(phone) {
     font-size: 29px;
   }
+}
+
+.banner-p{
+  padding-top: 8px;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
 }
 .swiper-button-prev, .swiper-button-next {
   // padding-left: 100px;

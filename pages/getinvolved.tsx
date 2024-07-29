@@ -39,24 +39,24 @@ const AboutPage = () => {
                 <h4 className='banner-h4'>What Can I Do Today?</h4>
                 <div className='getinvolved-items'>
                     <div className='getinvolved-item'>
-                        <h4>Sign the petition</h4>
-                        <p>aiosjfpoase fioasjefoi ajsoie fjpa</p>
-                        <button>Sign</button>
+                        <h4>Sign the petition:</h4>
+                        <p>Coming Soon!</p>
+                        {/* <button>Sign</button> */}
                     </div>
                     <div className='getinvolved-item'>
                         <h4>Donate</h4>
-                        <p>aiosjfpoase fioasjefoi ajsoie fjpa</p>
-                        <button>gofundme</button>
+                        <p>Donate to our gofundme.</p>
+                        <a href="https://gofund.me/40efadc6" target="_blank" rel="noreferrer nofollow"><button>gofundme</button></a>
                     </div>
-                    <div className='getinvolved-item'>
+                    {/* <div className='getinvolved-item'>
                         <h4>Contact Alumni</h4>
                         <p>aiosjfpoase fioasjefoi ajsoie fjpa</p>
                         <button>Learn More</button>
-                    </div>
+                    </div> */}
                     <div className='getinvolved-item'>
                         <h4>Contact Admin</h4>
-                        <p>aiosjfpoase fioasjefoi ajsoie fjpa</p>
-                        <button>Learn More</button>
+                        <p>Contact the admin through our script and email list:</p>
+                        <a href="https://docs.google.com/document/d/1WZFIyus67LcCuT4NDRScypTBUiPshU-q/edit" target="_blank" rel="noreferrer nofollow"><button>Learn More</button></a>
                     </div>
                 </div>
             </section>
@@ -84,7 +84,9 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>Other Green Purdue Organizations</h4>
-                <div className='org-block'>
+                <p className='banner-p'>Coming Soon!</p>
+                
+                {/* <div className='org-block'>
                     <div className='org-block-image'>
                         <img src='https://via.placeholder.com/300' alt='placeholder' />
                     </div>
@@ -103,7 +105,7 @@ const AboutPage = () => {
                         <p>A student organization at Purdue University whose mission is to promote sustainability on Purdue's campus and in the surrounding community. </p>
                         <button>Visit Site</button>
                     </div>
-                </div>
+                </div> */}
             </section>
 
 
