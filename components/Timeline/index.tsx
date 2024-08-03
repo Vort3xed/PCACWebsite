@@ -3,7 +3,7 @@ import React from 'react';
 interface TimelineItemProps {
   title: string;
   titleUrl?: string;
-  content: string;
+  content?: string;
   image?: string;
 }
 

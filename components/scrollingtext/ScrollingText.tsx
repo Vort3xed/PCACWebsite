@@ -7,7 +7,7 @@ const ScrollingText: React.FC = () => {
   useEffect(() => {
     const scroll = () => {
       if (scrollingContainerRef.current) {
-        const { scrollLeft, scrollWidth, clientWidth } = scrollingContainerRef.current;
+        const { scrollLeft, scrollWidth } = scrollingContainerRef.current;
         if (scrollLeft >= scrollWidth / 2) {
           scrollingContainerRef.current.scrollLeft = 0;
         } else {
