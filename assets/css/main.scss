@@ -238,8 +238,13 @@ h5 {
       line-height: 115%;
       padding-bottom: 8%;
     }
+    a {
+      text-decoration: underline;
+    }
   }
 }
+
+
 
 
 .container {
@@ -331,6 +336,141 @@ h5 {
     }
   }
 }
+
+.unique-scroller {
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.unique-scrolling-content {
+  display: inline-flex;
+  animation: unique-scroll linear infinite;
+  animation-duration: 25s; /* Adjust duration to control speed */
+}
+
+.unique-block {
+  display: inline-block;
+  width: 200px; /* Set a fixed width */
+  padding: 20px;
+  background-color: #f0f0f0;
+  margin-right: 20px;
+  border-radius: 8px;
+  white-space: normal;
+  word-wrap: break-word;
+  line-height: 21px;
+}
+
+/* Hide the scrollbar */
+.unique-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.unique-scroller {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes unique-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+.tb-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  // background-color: #f0f0f0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.tb-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.tb-block-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+.tb-logo {
+  width: 70px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.tb-logo-safe {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.tb-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.tb-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tb-button {
+  background-color: green;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darkgreen;
+  }
+}
+
 
 .btn {
   color: #000000;
@@ -1546,12 +1686,14 @@ h5 {
 .about-content {
   margin-left: 8%;
   margin-right: 8%;
-  // margin-top: 5%;
+  margin-top: 30px;
   margin-bottom: 5%;
   border: #000;
   border-width: 5px;
   box-shadow: 0 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  // border: 1px solid #ddd;
+
 
   // padding-top: 5%;
   // padding-bottom: 5%;
@@ -1792,6 +1934,7 @@ h5 {
     box-shadow: #C1C1C1;
     border-radius: 4%;
     margin-right: 30px;
+    width: 95vw;
 
 
     i {

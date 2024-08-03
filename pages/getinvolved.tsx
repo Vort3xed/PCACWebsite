@@ -6,28 +6,25 @@ import Timeline from 'components/Timeline';
 const AboutPage = () => {
     const timelineData = [
         {
-            title: 'Event 1',
-            content: 'Description for event 1.',
-            image: 'https://via.placeholder.com/300'
+            title: 'Purdue Exponent covers our 2023 town hall:',
+            titleUrl: 'https://www.purdueexponent.org/campus/article_72ac8dc6-bd6c-11ed-ba62-d3439447c44e.html',
+            content: '',
+            image: 'images/inthemedia/big10.jpg'
         },
         {
-            title: 'Event 2',
-            content: 'Description for event 2.'
+            title: 'Indiana Public Media discusses our efforts:',
+            titleUrl: 'https://indianapublicmedia.org/news/purdue-university-still-without-carbon-neutral-plan.php',
+            image: 'images/inthemedia/ipm_discusses_our_efforts.jpg'
         },
         {
-            title: 'Event 3',
-            content: 'Description for event 3.',
-            image: 'https://via.placeholder.com/300'
+            title: 'Watching Washington interviews the founder of PCAC:',
+            titleUrl: 'https://youtu.be/FiZXDFlh_6s?si=gE8M6z6q2AMPKZ7Z&amp;t=814',
+            image: 'images/inthemedia/founder_interview.png'
         },
         {
-            title: 'Event 4',
-            content: 'Description for event 4.',
-            image: 'https://via.placeholder.com/300'
-        },
-        {
-            title: 'Event 5',
-            content: 'Description for event 3.',
-            image: 'https://via.placeholder.com/300'
+            title: 'Purdue Exponent covers our Earth Day 2024 event:',
+            titleUrl: 'https://www.purdueexponent.org/campus/article_b46db10c-0110-11ef-9717-47abefa6db73.html',
+            image: 'images/inthemedia/photo_of_founder.png'
         }
     ];
     return (
@@ -63,8 +60,9 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>Upcoming Events</h4>
+                <p className='banner-p'>Coming soon!</p>
 
-                <div className='event-block'>
+                {/* <div className='event-block'>
                     <div className='event-block-text'>
                         <h3>Earth Day Town Hall</h3>
                         <p>April 22, 2021</p>
@@ -73,12 +71,12 @@ const AboutPage = () => {
                     <div className='event-block-image'>
                         <img src='https://via.placeholder.com/300' alt='placeholder' />
                     </div>
-                </div>
+                </div> */}
 
             </section>
 
             <section>
-                <h4 className='banner-h4'>Past Events</h4>
+                <h4 className='banner-h4'>In the Media</h4>
                 <Timeline items={timelineData} />
             </section>
 

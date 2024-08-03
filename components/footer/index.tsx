@@ -58,19 +58,19 @@ const Footer = () => {
           </header>
           <div className="footer-items">
             <div className="footer-item">
-              <i className="icon-cash"></i>
+              <i className="icon-home"></i>
               <h4>Join Us</h4>
               <p>Have a question, suggestion, or just want to reach out? We're here to listen!</p>
               <a href="https://forms.gle/XsX6UeqJs9ZPGXPR7" target="_blank" rel="noopener noreferrer" className="btn-contact"><i className="icon-right"></i></a>
             </div>
             <div className="footer-item">
-              <i className="icon-cash"></i>
+              <i className="icon-avatar"></i>
               <h4>Contact Us</h4>
               <p>Stay updated on upcoming sustainability events & efforts around campus by signing up for the e-newsletter.</p>
               <a href="mailto:purdueclimateactioncollective@gmail.com" className="btn-contact"><i className="icon-right"></i></a>
             </div>
             <div className="footer-item">
-              <i className="icon-cash"></i>
+              <i className="icon-instagram"></i>
               <h4>Follow us on Insta</h4>
               <p>Join our Instagram community to stay connected, and be inspired to make a difference.</p>
               <a href="#" className="btn-contact"><i className="icon-right"></i></a>
@@ -83,7 +83,7 @@ const Footer = () => {
           <div className="site-footer__description">
             {/* <h6><Logo /> PCAC</h6> */}
             <img src="/images/PCAC_logo_dark.png" alt="PCAC" className="site-logo" />
-            <p>Purdue &gt; IU</p>
+            {/* <p>Purdue &gt; IU</p> */}
             <ul className="site-footer__social-networks">
               <li><a href="#"><i className="icon-instagram"></i></a></li>
             </ul>
