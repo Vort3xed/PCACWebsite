@@ -15,6 +15,8 @@ const CampusInfo = () => {
 
             <h4 className='banner-h4'>Where We Stand!</h4>
             < ThreeBlocks />
+            
+            
             <h4 className='banner-h4'>Purdue's Pollution:</h4>
             <p>&nbsp;</p>
             <ScrollingText />
