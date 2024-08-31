@@ -23,6 +23,7 @@ const ScrollingText: React.FC = () => {
   return (
     <div className="unique-scroller">
       <div className="unique-scrolling-content">
+        {/* FIRST SECTION */}
         <div className="unique-block">In 2020, over 8000 students signed a petition, delivered to Pres. Daniels, calling on Purdue to commit to decarbonizing</div>
         <div className="unique-block">Purdue's Physical Facilities team (not an official university policy) has a Master Plan to cut emissions by 50% by 2025 (with 2011 as the base-year). As of Fiscal Year 2022, we have achieved 15% reductions.</div>
         <div className="unique-block">All three governmental bodies at Purdue (Purdue Student Government, Purdue Graduate Student Government, and the University Senate) passed resolutions calling on Purdue to commit to decarbonizing</div>
@@ -36,6 +37,8 @@ const ScrollingText: React.FC = () => {
         <div className="unique-block">Purdue's annual emissions are the equivalent to charging 62,767,605,489 smart phones</div>
         <div className="unique-block">Of the 1194 vehicles in Purdue's campus fleet, 21 are electric or hybrid</div>
 
+
+        {/* SECOND SECTION */}
         <div className="unique-block">In 2020, over 8000 students signed a petition, delivered to Pres. Daniels, calling on Purdue to commit to decarbonizing</div>
         <div className="unique-block">Purdue's Physical Facilities team (not an official university policy) has a Master Plan to cut emissions by 50% by 2025 (with 2011 as the base-year). As of Fiscal Year 2022, we have achieved 15% reductions.</div>
         <div className="unique-block">All three governmental bodies at Purdue (Purdue Student Government, Purdue Graduate Student Government, and the University Senate) passed resolutions calling on Purdue to commit to decarbonizing</div>

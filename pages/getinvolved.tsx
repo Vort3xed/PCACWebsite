@@ -4,11 +4,10 @@ import Footer from '../components/footer';
 import Timeline from 'components/Timeline';
 
 const AboutPage = () => {
-    const timelineData = [
+    const mediaData = [
         {
             title: 'Purdue Exponent covers our 2023 town hall:',
             titleUrl: 'https://www.purdueexponent.org/campus/article_72ac8dc6-bd6c-11ed-ba62-d3439447c44e.html',
-            content: '',
             image: 'images/inthemedia/big10.jpg'
         },
         {
@@ -38,18 +37,12 @@ const AboutPage = () => {
                     <div className='getinvolved-item'>
                         <h4>Sign the petition:</h4>
                         <p>Coming Soon!</p>
-                        {/* <button>Sign</button> */}
                     </div>
                     <div className='getinvolved-item'>
                         <h4>Donate</h4>
                         <p>Donate to our gofundme.</p>
                         <a href="https://gofund.me/40efadc6" target="_blank" rel="noreferrer nofollow"><button>gofundme</button></a>
                     </div>
-                    {/* <div className='getinvolved-item'>
-                        <h4>Contact Alumni</h4>
-                        <p>aiosjfpoase fioasjefoi ajsoie fjpa</p>
-                        <button>Learn More</button>
-                    </div> */}
                     <div className='getinvolved-item'>
                         <h4>Contact Admin</h4>
                         <p>Contact the admin through our script and email list:</p>
@@ -60,6 +53,8 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>Upcoming Events</h4>
+
+                {/* REMOVE THIS LINE WHEN EVENTS ARE ADDED. */}
                 <p className='banner-p'>Coming soon!</p>
 
                 {/* <div className='event-block'>
@@ -77,13 +72,15 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>In the Media</h4>
-                <Timeline items={timelineData} />
+                <Timeline items={mediaData} />
             </section>
 
             <section>
                 <h4 className='banner-h4'>Other Green Purdue Organizations</h4>
+
+                {/* REMOVE THIS LINE WHEN ORGANIZATIONS ARE ADDED. */}
                 <p className='banner-p'>Coming Soon!</p>
-                
+
                 {/* <div className='org-block'>
                     <div className='org-block-image'>
                         <img src='https://via.placeholder.com/300' alt='placeholder' />
@@ -93,36 +90,9 @@ const AboutPage = () => {
                         <p>A student organization at Purdue University whose mission is to promote sustainability on Purdue's campus and in the surrounding community. </p>
                         <button>Visit Site</button>
                     </div>
-                </div>
-                <div className='org-block'>
-                    <div className='org-block-image'>
-                        <img src='https://via.placeholder.com/300' alt='placeholder' />
-                    </div>
-                    <div className='org-block-text'>
-                        <h3>Purdue Sustainability Council</h3>
-                        <p>A student organization at Purdue University whose mission is to promote sustainability on Purdue's campus and in the surrounding community. </p>
-                        <button>Visit Site</button>
-                    </div>
                 </div> */}
+                
             </section>
-
-
-            {/* <section>
-
-                <div className="about-content">
-                    <h4>What is the PCAC?</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <h3>Mission and Vision</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p></p>
-                    <p></p>
-                </div>
-            </section> */}
-
-            {/* <div className="contact-head">
-                <h4>Timeline</h4>
-            </div> */}
 
             <Footer />
         </Layout>

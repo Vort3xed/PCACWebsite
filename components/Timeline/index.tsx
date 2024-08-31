@@ -11,6 +11,7 @@ interface TimelineProps {
   items: TimelineItemProps[];
 }
 
+
 const TimelineItem: React.FC<TimelineItemProps> = ({ title, titleUrl, content, image }) => {
   console.log(titleUrl);
   if (titleUrl !== undefined) {
