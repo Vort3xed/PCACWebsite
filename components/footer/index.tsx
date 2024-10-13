@@ -73,7 +73,7 @@ const Footer = () => {
               <i className="icon-instagram"></i>
               <h4>Follow us on Insta</h4>
               <p>Join our Instagram community to stay connected, and be inspired to make a difference.</p>
-              <a href="#" className="btn-contact"><i className="icon-right"></i></a>
+              <a href="https://www.instagram.com/purduezeroco2/" className="btn-contact"><i className="icon-right"></i></a>
             </div>
           </div>
         </div>
