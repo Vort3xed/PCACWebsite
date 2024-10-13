@@ -16,7 +16,7 @@ const ScrollingText: React.FC = () => {
       }
     };
 
-    const intervalId = setInterval(scroll, 80);
+    const intervalId = setInterval(scroll, 160);
     return () => clearInterval(intervalId);
   }, []);
 
