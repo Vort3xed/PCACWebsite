@@ -10,9 +10,11 @@ const IndexPage = () => {
       rightVar={true} button={true}/>
         <section>
             <div className="about-content">
-                <h4>Sign our petition!</h4>
-                <h3> <a href="https://docs.google.com/forms/d/e/1FAIpQLSemvEx6L93lPnFK2cIua2uiex6o69vBMKM14UrPnNYTGAKKFQ/viewform" target="_blank"
-                        rel="noreferrer nofollow"><u>Petition</u></a> </h3>
+                <h4>Sign Our 2024 Petition!</h4>
+                <h3><a style="text-align: center;"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSemvEx6L93lPnFK2cIua2uiex6o69vBMKM14UrPnNYTGAKKFQ/viewform"
+                    target="_blank"
+                    rel="noreferrer nofollow"><u>Click Here</u></a> </h3>
             </div>
         </section>
         {/* <section className="featured">
