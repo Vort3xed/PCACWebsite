@@ -54,7 +54,7 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>Upcoming Events</h4>
-                <p className='banner-p'>Coming soon!</p>
+                {/*<p className='banner-p'>Coming soon!</p>*/}
                 <div className='event-block'>
                     <div className='event-block-text'>
                         <h3>Halloween Petition Drive</h3>
