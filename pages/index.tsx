@@ -11,10 +11,10 @@ const IndexPage = () => {
         <section>
             <div className="about-content">
                 <h4>Sign Our 2024 Petition!</h4>
-                <h3 align="center"><a
+                <p className='banner-p'><a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSemvEx6L93lPnFK2cIua2uiex6o69vBMKM14UrPnNYTGAKKFQ/viewform"
                     target="_blank"
-                    rel="noreferrer nofollow"><u>Click Here</u></a> </h3>
+                    rel="noreferrer nofollow"><u>Click Here</u></a></p>
             </div>
         </section>
         {/* <section className="featured">
