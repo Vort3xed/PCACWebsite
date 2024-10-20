@@ -37,7 +37,7 @@ const AboutPage = () => {
                     <div className='getinvolved-item'>
                         <h4>Sign the petition!</h4>
                         <p>Sign here: </p>
-                        <a href= "https://tinyurl.com/PCACpetition" target="_blank" rel="noreferrer nofollow"><button>Petition</button>></a>
+                        <a href= "https://tinyurl.com/PCACpetition" target="_blank" rel="noreferrer nofollow"><button>Petition</button></a>
                     </div>
                     <div className='getinvolved-item'>
                         <h4>Donate</h4>
