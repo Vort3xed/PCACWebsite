@@ -27,6 +27,7 @@ const AboutPage = () => {
         },
     ];
 
+    // @ts-ignore
     return (
         <Layout>
             <PageIntro pageIntroBackgroundImage="url('/images/aboutbg.png')" titleText='About'
