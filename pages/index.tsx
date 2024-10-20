@@ -11,7 +11,9 @@ const IndexPage = () => {
         <section>
             <div className="about-content">
                 <h4>Sign our petition!</h4>
-                <a href="https://gofund.me/40efadc6" target="_blank" rel="noreferrer nofollow">Petition</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSemvEx6L93lPnFK2cIua2uiex6o69vBMKM14UrPnNYTGAKKFQ/viewform"><p style="text-align:center">Petition</p></a>
+                {/*<a href="https://gofund.me/40efadc6" target="_blank"
+                   rel="noreferrer nofollow">Petition</a>*/}
             </div>
         </section>
         {/* <section className="featured">
