@@ -14,7 +14,7 @@ const IndexPage = () => {
                 <h3><a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSemvEx6L93lPnFK2cIua2uiex6o69vBMKM14UrPnNYTGAKKFQ/viewform"
                     target="_blank"
-                    rel="noreferrer nofollow" style={"text-align: center;"}><u>Click Here</u></a> </h3>
+                    rel="noreferrer nofollow"><u>Click Here</u></a> </h3>
             </div>
         </section>
         {/* <section className="featured">
