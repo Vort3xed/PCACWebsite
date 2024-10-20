@@ -54,9 +54,14 @@ const AboutPage = () => {
 
             <section>
                 <h4 className='banner-h4'>Upcoming Events</h4>
-
-                {/* REMOVE THIS LINE WHEN EVENTS ARE ADDED. */}
                 <p className='banner-p'>Coming soon!</p>
+                <div className='event-block'>
+                    <div className='event-block-text'>
+                        <h3>Halloween Petition Drive</h3>
+                        <p>October 26, 2024, 2:00pm</p>
+                        <p>Petition drive in BRNG 1202</p>
+                    </div>
+                </div>
 
                 {/* <div className='event-block'>
                     <div className='event-block-text'>
