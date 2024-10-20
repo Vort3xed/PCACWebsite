@@ -8,9 +8,11 @@ const IndexPage = () => {
       <PageIntro pageIntroBackgroundImage="url('/images/homebg.png')" titleText='Welcome to the Purdue Climate Action Collective' 
       subtitleText='This is a hub for climate action information at Purdue, as well as resources to be involved with sustainability efforts on campus.'
       rightVar={true} button={true}/>
-        <section className="index-content">
-            <h4>Sign our petition!</h4>
-            <a href="https://gofund.me/40efadc6" target="_blank" rel="noreferrer nofollow">Petition</a>
+        <section>
+            <div className="index-content">
+                <h4>Sign our petition!</h4>
+                <a href="https://gofund.me/40efadc6" target="_blank" rel="noreferrer nofollow">Petition</a>
+            </div>
         </section>
         {/* <section className="featured">
         <div className="container">
