@@ -9,7 +9,7 @@ const IndexPage = () => {
       subtitleText='This is a hub for climate action information at Purdue, as well as resources to be involved with sustainability efforts on campus.'
       rightVar={true} button={true}/>
         <section>
-            <div className="index-content">
+            <div className="about-content">
                 <h4>Sign our petition!</h4>
                 <a href="https://gofund.me/40efadc6" target="_blank" rel="noreferrer nofollow">Petition</a>
             </div>
