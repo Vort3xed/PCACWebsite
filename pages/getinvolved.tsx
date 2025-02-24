@@ -42,7 +42,7 @@ const AboutPage = () => {
                     <div className='getinvolved-item'>
                         <h4>Donate</h4>
                         <p>Donate to our gofundme.</p>
-                        <a href="https://gofund.me/40efadc6" target="_blank" rel="noreferrer nofollow"><button>gofundme</button></a>
+                        <a href="https://gofund.me/e332617c" target="_blank" rel="noreferrer nofollow"><button>gofundme</button></a>
                     </div>
                     <div className='getinvolved-item'>
                         <h4>Contact Admin</h4>
